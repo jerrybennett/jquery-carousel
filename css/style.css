@@ -1,0 +1,37 @@
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* Carousel Styles */
+
+#frame {
+	position: relative;
+	width: 800px;
+	height: 600px;
+	overflow: hidden;
+}
+
+#tray {
+	position: relative;
+	/*width: 2400px;*/
+}
+
+.slide {
+	float: left;
+	width: 800px;
+	height: 600px;
+}
+
+#prev, #next {
+	position: absolute;
+	top: 50%;
+}
+
+#prev {
+	left: 0;
+}
+
+#next {
+	right: 0;
+}
