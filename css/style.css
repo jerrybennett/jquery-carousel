@@ -1,37 +1,45 @@
 .wrapper {
-	width: 960px;
-	margin: 0 auto;
+  width: 960px;
+  margin: 0 auto;
 }
 
-/* Carousel Styles */
+/*////////// CAROUSEL //////////*/
 
 #frame {
-	position: relative;
-	width: 800px;
-	height: 600px;
-	overflow: hidden;
+  position: relative;
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
 }
 
 #tray {
-	position: relative;
-	/*width: 2400px;*/
+  position: relative;
+  /*right: 0;
+  width: 2400px;*/
 }
 
 .slide {
-	float: left;
-	width: 800px;
-	height: 600px;
+  float: left;
+  width: 800px;
+  height: 600px;
 }
 
 #prev, #next {
-	position: absolute;
-	top: 50%;
+  position: absolute;
+  top: 48.5%;
+  color: white;
+  text-shadow: 2px 2px 0px black, -2px -2px 0px black;
+}
+#prev { left: 0; }
+#next { right: 0; }
+
+#prev:hover, #next:hover {
+  color: black;
+  text-shadow: 2px 2px 0px white, -2px -2px 0px white;
 }
 
-#prev {
-	left: 0;
-}
 
-#next {
-	right: 0;
-}
+
+
+
+
